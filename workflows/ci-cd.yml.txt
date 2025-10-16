@@ -1,0 +1,10 @@
+name: CI/CD Pipeline
+# Build, Test, and Deploy to Production
+
+on:
+  # Trigger  'main' branch
+  push:
+    branches: [ "main" ]
+
+  pull_request:
+    branches: [ "main" ]
